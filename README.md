@@ -1,12 +1,12 @@
-# TITLE OF PROJECT 
-## Name of project ( For example: Independent project #3 for Epicodus)
-### Project initiated: 00-00-0000
+# WEATHER CONDITIONS API 
+## Practice API calls with this application  
+### Project initiated: 03-16-2021
 ### Project modified: 00-00-0000
 ### By Sofia Acosta
 ## Project Description
-This is a detailed description of the project. A summary of valuable information for the users and developers. 
+The objective of this project is to practice making API calls in Javascript. This website will indicate the weatehr of your location by inputting yoour current location with different variables.  
 ## Preview 
-* Link to GitHub Pages. 
+* Link to GitHub Pages in not available at the moment. 
 
 ## Technologies Used
  
@@ -31,7 +31,7 @@ This is a detailed description of the project. A summary of valuable information
 ## Set up / Installation requirements
 * Open the terminal in your machine
 * Navigate to the directory where you would like to save this project 
-* Clone the project with $ git clone LINK TO GITHUB
+* Clone the project with $ git clone https://github.com/Sofacosta/weather-conditions-API
 * Recreate this project's environment with $ npm install
 * Create a file to store variables you want to keep secret $ touch .env  
 * Create production environment with terminal command $ npm run build     
@@ -40,7 +40,7 @@ This is a detailed description of the project. A summary of valuable information
 ## Known Bugs
 * No known bugs
 ## Notes
-* Any reference that I used in building this project 
+* N/A
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
 * Copyright 2021 Sofia Acosta
