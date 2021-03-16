@@ -33,12 +33,14 @@ The objective of this project is to practice making API calls in Javascript. Thi
 * Navigate to the directory where you would like to save this project 
 * Clone the project with $ git clone https://github.com/Sofacosta/weather-conditions-API
 * Recreate this project's environment with $ npm install
-* Create a file to store variables you want to keep secret $ touch .env  
-* Create production environment with terminal command $ npm run build     
+* Create a file to store variables you want to keep secret $ touch .env 
+* Create an API key and store it in .env: API_KEY=YOUR KEY   
+* Create production environment with terminal command $ npm run build   
+* Start local server with $ npm run start   
  
 
 ## Known Bugs
-* My API key is not activates yet so it wont work 
+* No known bugs 
 ## Notes
 * N/A
 ## License
