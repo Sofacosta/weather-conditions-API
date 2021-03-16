@@ -38,7 +38,7 @@ The objective of this project is to practice making API calls in Javascript. Thi
  
 
 ## Known Bugs
-* No known bugs
+* My API key is not activates yet so it wont work 
 ## Notes
 * N/A
 ## License
