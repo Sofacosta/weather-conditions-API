@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import WeatherService from './weather-service.js'
+import WeatherService from './WeatherService.js';
 
 function clearFields() {
   $('#location').val("");
@@ -12,21 +12,16 @@ function clearFields() {
 }
 
 $(function() {
-  $('#weatherLocation').on('click', function() {
-    const city = $('#location').val();
+  $('#weatherLocation').on('click',function() {
+    let city = $('#location').val();
     clearFields();
-    let promise = WeatherService.getWeather(city);
-    promise.then(function(response) {
-      let city = $('#location').val();
-      clearFields();
-      let promise = WeatherService.getWeather(city);
+    let promise = WeatherService.getWeather(city);  
       promise.then(function(response) {
         const body= JSON.parse(response);
         $('.showHumidity').text(`The humidity in ${city} is ${body.main.humidity}%`);
         $('.showTemp').text(`The temperature in Kelvins is ${body.main.temp} degrees.`);
     }, function(error) {
-      $('.showErrors').text(`There was an error processing your request: ${error}`);
-          
+      $('.showErrors').text(`There was an error processing your request: ${error}`); 
         });
       });
     });
